@@ -1,15 +1,9 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-   Name = "((IRQ HUB//v2))",
-   LoadingTitle = "نتضر لا بالنعال",
-   LoadingSubtitle = "by OLKT2",
-   ConfigurationSaving = {
-      Enabled = true,
-      FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "((IRQ HUB//v2))"
-   },
-   Discord = {
-      Enabled = false,
+   Name = "((IRQ HUB//gTitle = "نتضر لا بالنعال",
+   LoadingSubtitle =ationSavibled = true,
+      FolderName = nil, -- Create a custom folder for your hub/gameord = {
+   d = false,
       Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
@@ -21,13 +15,9 @@ local Window = Rayfield:CreateWindow({
       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"مفتاح"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("مفتاح","key22")
-   }
-})
-
+      Key = {"مفتاح"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("م
 local bloxfruitTab = Window:CreateTab("بلوكس فروت", 4483362458) -- Title, Image
 
-local Button = bloxfruitTab:CreateButton({
    Name = "redz",
    Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
    -- The function that takes place when the button is pressed
