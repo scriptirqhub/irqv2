@@ -37,7 +37,7 @@ local Button = bloxfruitTab:CreateButton({
 
 
 local Button = bloxfruitTab:CreateButton({
-   Name = "❌صيد باونتي❌",
+   Name ="ميراج",
    Callback = function()getgenv()
    -- The function that takes place when the button is pressed
    end,
@@ -101,6 +101,25 @@ local Button = brokTab:CreateButton({
 local Button = brokTab:CreateButton({
    Name = "كيبورد",
    Callback = function()loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
+local brokTab = Window:CreateTab("طوبه", 4483362458) -- Title, Image
+
+local Section = footTab:CreateSection("beta scripts")
+local Section = footTab:CreateSection("من الممكن مايشتغل")
+
+local Button = footTab:CreateButton({
+   Name = "(ارسوس فقط) هيتبوكس",
+   Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptirqhub/foot/refs/heads/main/foot"))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
+local Button = footTab:CreateButton({
+   Name = "سرعه تخفيف الاق(كل الهاكات) ",
+   Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/zen-teamm/zen-protector/main/urmomsucksmydick/aaaaaaa1.txt"))()
    -- The function that takes place when the button is pressed
    end,
 })
