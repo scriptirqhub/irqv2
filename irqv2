@@ -105,7 +105,7 @@ local Button = brokTab:CreateButton({
    end,
 })
 
-local brokTab = Window:CreateTab("طوبه", 4483362458) -- Title, Image
+local footTab = Window:CreateTab("طوبه", 4483362458) -- Title, Image
 
 local Section = footTab:CreateSection("beta scripts")
 local Section = footTab:CreateSection("من الممكن مايشتغل")
