@@ -28,7 +28,7 @@ local Window = Rayfield:CreateWindow({
 local bloxfruitTab = Window:CreateTab("بلوكس فروت", 4483362458) -- Title, Image
 
 local Button = bloxfruitTab:CreateButton({
-   Name = "redz",
+   Name = "redz شغال بعد التحديث",
    Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
    -- The function that takes place when the button is pressed
    end,
@@ -37,7 +37,7 @@ local Button = bloxfruitTab:CreateButton({
 
 
 local Button = bloxfruitTab:CreateButton({
-   Name ="ميراج",
+   Name ="ميراج غير شغال بسبب التحديث",
    Callback = function()getgenv()
    -- The function that takes place when the button is pressed
    end,
@@ -48,7 +48,7 @@ local Button = bloxfruitTab:CreateButton({
 
 
 local Button = bloxfruitTab:CreateButton({
-   Name = "سكربت green",
+   Name = "غير شغال بسبب التحديث green",
    Callback = function()loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")()
    -- The function that takes place when the button is pressed
    end,
